@@ -49,7 +49,7 @@ pip3 install -r requirements.txt
 ## Usage
 
 Please checkout the tutorials at
-[here](https://github.com/jiatingyu-amss/SCILD/blob/master/Vignettes/Test_Layer456.ipynb).
+[here](https://github.com/jiatingyu-amss/SCILD/blob/master/Vignettes/SCILD_PDAC_Visium.ipynb).
 
 ### 1. Preparing your ST data in h5ad format
 You can downloaded an example data from [here](https://github.com/jiatingyu-amss/SCILD/tree/master/Example_data/).
