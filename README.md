@@ -5,6 +5,7 @@
 ## Authors
 - yujiating@amss.ac.cn
 - lywu@amss.ac.cn
+- dcsun@sdu.edu.cn
 
 ## Pipeline
 - SCILD (Spatial Cellular communication Inference with Ligand Diffusion and transport model) is an interpretable computational framework for inferring spatial CCC from ST data. 
