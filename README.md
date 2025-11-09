@@ -1,4 +1,3 @@
-
 ------------------------------------------------------------------------------------------------------
 # SCILD: Advancing spatial cellular communication inference in spatial transcriptomics
 
@@ -7,38 +6,52 @@
 - lywu@amss.ac.cn
 - dcsun@sdu.edu.cn
 
-## Pipeline
-- SCILD (Spatial Cellular communication Inference with Ligand Diffusion and transport model) is an interpretable computational framework for inferring spatial CCC from ST data. 
-- SCILD conceptualizes ligand diffusion and receptor binding as a cargo transport system with potential losses during the transport process.
+## Overview
+
+**SCILD** (Spatial Cellular communication Inference with Ligand Diffusion and transport model)  
+is an interpretable computational framework for inferring spatial cell–cell communication (CCC)  
+from spatial transcriptomics (ST) data.
+
+SCILD conceptualizes ligand diffusion and receptor binding as a *cargo transport system*  
+with potential losses during the transport process, and formulates CCC inference as a  
+high-dimensional tensor optimization problem.
 
 <p align="center">
   <a href="https://github.com/jiatingyu-amss/SCILD/">
-    <img src="images/SCILD.png" alt="Logo">
+    <img src="images/SCILD.png" alt="Logo" width="600">
   </a>
 </p>
-<br />
 
-## Algorithm
-- SCILD introduces a sophisticated high-dimensional tensor optimization problem to quantify cellular communication strength while considering competitive interactions. 
--  We employed mathematical techniques, such as sparse tensor vectorization and Lagrangian duality, to develop efficient algorithms for solving the optimization problem addressed by SCILD.
+---
 
-<p align="center">
-  <a href="https://github.com/jiatingyu-amss/SCILD/">
-    <img src="images/algorithm.png" alt="Logo">
-  </a>
-</p>
-<br />
+## 📘 Documentation and Tutorials
+
+📖 **Full documentation, tutorials, and analysis notebooks are available at:**  
+👉 [https://scilddocs.readthedocs.io](https://scilddocs.readthedocs.io)
+
+The documentation includes:
+
+- Installation and usage guide  
+- Algorithmic background and theoretical details  
+- Step-by-step tutorials reproducing all analyses in the manuscript  
+- In silico perturbation (“knockout”) experiments  
+
+All tutorial notebooks and example datasets are hosted in the companion repository:  
+🔗 [SCILDdocs on GitHub](https://github.com/jiatingyu-amss/SCILDdocs)
+
+---
 
 ## Installation
 
-We recommend to create a new environment with Python 3.10:
-```sh
+We recommend creating a new environment with Python 3.10:
+
+```bash
 conda create -n py310 python=3.10
 conda activate py310
 ```
 The `SCILD` package can be installed via:
 
-```sh
+```bash
 git clone https://github.com/jiatingyu-amss/SCILD.git
 cd SCILD
 pip3 install -r requirements.txt 
@@ -47,7 +60,7 @@ pip3 install -r requirements.txt
 
 
 
-## Usage
+## Usage Example
 
 Please checkout the tutorials at
 [here](https://github.com/jiatingyu-amss/SCILD/blob/master/Vignettes/SCILD_PDAC_Visium.ipynb).
