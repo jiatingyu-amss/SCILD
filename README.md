@@ -42,6 +42,9 @@ The documentation includes:
 All tutorial notebooks and example datasets are hosted in the companion repository:  
 🔗 [SCILDdocs on GitHub](https://github.com/jiatingyu-amss/SCILDdocs)
 
+All processed spatial transcriptomics datasets are publicly available on Zenodo:
+🔗 [SCILD data on Zenodo](https://doi.org/10.5281/zenodo.17522268)
+
 ---
 
 ## Installation
@@ -59,8 +62,6 @@ git clone https://github.com/jiatingyu-amss/SCILD.git
 cd SCILD
 pip3 install -r requirements.txt 
 ```
-<br />
-
 ---
 
 ## Usage Example
