@@ -2,9 +2,12 @@
 # SCILD: Advancing spatial cellular communication inference in spatial transcriptomics
 
 ## Authors
+
 - yujiating@amss.ac.cn
 - lywu@amss.ac.cn
 - dcsun@sdu.edu.cn
+
+---
 
 ## Overview
 
@@ -18,16 +21,16 @@ high-dimensional tensor optimization problem.
 
 <p align="center">
   <a href="https://github.com/jiatingyu-amss/SCILD/">
-    <img src="images/SCILD.png" alt="Logo" width="600">
+    <img src="images/SCILD.png" alt="Logo" width="800">
   </a>
 </p>
 
 ---
 
-## 📘 Documentation and Tutorials
+## Documentation and Tutorials
 
-📖 **Full documentation, tutorials, and analysis notebooks are available at:**  
-👉 [https://scilddocs.readthedocs.io](https://scilddocs.readthedocs.io)
+**Full documentation, tutorials, and analysis notebooks are available at:**  
+[https://scilddocs.readthedocs.io](https://scilddocs.readthedocs.io)
 
 The documentation includes:
 
@@ -58,7 +61,7 @@ pip3 install -r requirements.txt
 ```
 <br />
 
-
+---
 
 ## Usage Example
 
