@@ -43,7 +43,7 @@ All tutorial notebooks and example datasets are hosted in the companion reposito
 🔗 [SCILDdocs on GitHub](https://github.com/jiatingyu-amss/SCILDdocs)
 
 All processed spatial transcriptomics datasets are publicly available on Zenodo:
-🔗 [SCILD data on Zenodo](https://doi.org/10.5281/zenodo.17522268)
+🔗 [SCILD data on Zenodo](https://zenodo.org/records/17522268)
 
 ---
 
